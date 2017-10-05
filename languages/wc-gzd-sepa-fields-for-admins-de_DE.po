@@ -1,0 +1,116 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Germanized SEPA Profile Fields for Admins\n"
+"POT-Creation-Date: 2017-10-05 19:21+0200\n"
+"PO-Revision-Date: 2017-10-05 19:27+0200\n"
+"Last-Translator: holzhannes <holzhannes@posteo.de>\n"
+"Language-Team: holzhannes <holzhannes@posteo.de>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.2\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: woocommerce-germanized-sepa-fields-for-admins.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: woocommerce-germanized-sepa-fields-for-admins.php:26
+msgid "Users SEPA-Mandate data"
+msgstr "SEPA Daten"
+
+#: woocommerce-germanized-sepa-fields-for-admins.php:30
+msgid "Full mandate value"
+msgstr "Vollständige Mandatsreferenz"
+
+#: woocommerce-germanized-sepa-fields-for-admins.php:40
+msgid ""
+"Only edit this if you have another valid SEPA-Mandate with a different "
+"mandate reference value."
+msgstr ""
+"Bearbeiten Sie diesen Wert nur falls Sie ein anders gültiges SEPA-Mandat "
+"vorliegen haben."
+
+#: woocommerce-germanized-sepa-fields-for-admins.php:46
+msgid "Date"
+msgstr "Datum"
+
+#: woocommerce-germanized-sepa-fields-for-admins.php:56
+msgid "Date of the mandate"
+msgstr "Datum des Mandats"
+
+#: woocommerce-germanized-sepa-fields-for-admins.php:62
+msgid "Sequence type"
+msgstr "Sequenztyp"
+
+#: woocommerce-germanized-sepa-fields-for-admins.php:72
+msgid "Sequence type within the export file (FRST -> RCUR -> FNAL)"
+msgstr "Sequenztyp in der Exportdatei (FRST-> RCUR-> FNAL)"
+
+#: woocommerce-germanized-sepa-fields-for-admins.php:78
+msgid "Validity"
+msgstr "Gültigkeit"
+
+#: woocommerce-germanized-sepa-fields-for-admins.php:88
+msgid "Value if the mandate is valid. 1 = Valid"
+msgstr "Wert falls das Mandate gültig ist = 1"
+
+#: woocommerce-germanized-sepa-fields-for-admins.php:94
+msgid "Signature mail"
+msgstr "Signatur E-Mail"
+
+#: woocommerce-germanized-sepa-fields-for-admins.php:104
+msgid "Mail at the time of signing the mandate"
+msgstr "E-Mail zum Zeitpunkt der Unterzeichnung des Mandats"
+
+#: woocommerce-germanized-sepa-fields-for-admins.php:110
+msgid "Holder"
+msgstr "Kontoinhaber"
+
+#: woocommerce-germanized-sepa-fields-for-admins.php:120
+msgid "Fullname of the direct debit mandate holder"
+msgstr "Name des SEPA-Mandatsinhabers"
+
+#: woocommerce-germanized-sepa-fields-for-admins.php:126
+msgid "IBAN"
+msgstr "IBAN"
+
+#: woocommerce-germanized-sepa-fields-for-admins.php:136
+msgid "IBAN of the direct debit mandate holder"
+msgstr "IBAN des Lastschriftinhabers"
+
+#: woocommerce-germanized-sepa-fields-for-admins.php:142
+msgid "BIC"
+msgstr "BIC"
+
+#: woocommerce-germanized-sepa-fields-for-admins.php:152
+msgid "BIC of the direct debit mandate holder"
+msgstr "BIC der Lastschriftinhabers"
+
+#. Plugin Name of the plugin/theme
+msgid "WooCommerce Germanized SEPA Profile Fields for Admins"
+msgstr "WooCommerce Germanized SEPA Profile Fields for Admins"
+
+#. Plugin URI of the plugin/theme
+msgid ""
+"https://github.com/holzhannes/woocommerce-germanized-sepa-fields-for-admins"
+msgstr ""
+"https://github.com/holzhannes/woocommerce-germanized-sepa-fields-for-admins"
+
+#. Description of the plugin/theme
+msgid "SEPA Profile Fields for Admins"
+msgstr "SEPA-Profilfelder für Admins"
+
+#. Author of the plugin/theme
+msgid "holzhannes"
+msgstr "holzhannes"
+
+#. Author URI of the plugin/theme
+msgid "https://github.com/holzhannes/"
+msgstr "https://github.com/holzhannes/"
