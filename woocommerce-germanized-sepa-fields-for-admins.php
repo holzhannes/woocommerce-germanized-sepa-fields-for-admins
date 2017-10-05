@@ -6,7 +6,7 @@
  * Plugin URI:        https://github.com/holzhannes/woocommerce-germanized-sepa-fields-for-admins
  * GitHub Plugin URI: https://github.com/holzhannes/woocommerce-germanized-sepa-fields-for-admins
  * Description:       SEPA Profile Fields for Admins
- * Version:           0.1
+ * Version:           0.1.1
  * Author:            holzhannes
  * Author URI:        https://github.com/holzhannes/
  * License:           GPL-2.0+
@@ -285,14 +285,14 @@ add_action('edit_user_profile','sepagw_usermeta_form_fields');
 add_action('show_user_profile','sepagw_usermeta_form_fields');
  
 // add the save action to user's own profile editing screen update
-// add_action('personal_options_update','sepagw_usermeta_form_fielddirect_debit_mandate_id_update');
-// add_action('personal_options_update','sepagw_usermeta_form_fielddirect_debit_mandate_DtOfSgntr_update');
-// add_action('personal_options_update','sepagw_usermeta_form_fielddirect_debit_mandate_seqType_update');
-// add_action('personal_options_update','sepagw_usermeta_form_fielddirect_debit_mandate_valid_update');
-// add_action('personal_options_update','sepagw_usermeta_form_fielddirect_debit_mandate_Sgn_mail_update');
-// add_action('personal_options_update','sepagw_usermeta_form_fielddirect_debit_mandate_holder_update');
-// add_action('personal_options_update','sepagw_usermeta_form_fielddirect_debit_mandate_iban_update');
-// add_action('personal_options_update','sepagw_usermeta_form_fielddirect_debit_mandate_bic_update');
+add_action('personal_options_update','sepagw_usermeta_form_fielddirect_debit_mandate_id_update');
+add_action('personal_options_update','sepagw_usermeta_form_fielddirect_debit_mandate_DtOfSgntr_update');
+add_action('personal_options_update','sepagw_usermeta_form_fielddirect_debit_mandate_seqType_update');
+add_action('personal_options_update','sepagw_usermeta_form_fielddirect_debit_mandate_valid_update');
+add_action('personal_options_update','sepagw_usermeta_form_fielddirect_debit_mandate_Sgn_mail_update');
+add_action('personal_options_update','sepagw_usermeta_form_fielddirect_debit_mandate_holder_update');
+add_action('personal_options_update','sepagw_usermeta_form_fielddirect_debit_mandate_iban_update');
+add_action('personal_options_update','sepagw_usermeta_form_fielddirect_debit_mandate_bic_update');
  
 // add the save action to user profile editing screen update
 add_action('edit_user_profile_update','sepagw_usermeta_form_fielddirect_debit_mandate_id_update');
